@@ -4,10 +4,91 @@
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <meta http-equiv="X-UA-Compatible" content="ie=edge">
-  <link rel="stylesheet" href="./style.css">
+  <link rel="stylesheet" href="./css/style.css">
   <title>Product Landing Page</title>
 </head>
 <body>
-  
+  <header id="header">
+    <img src="./img/trompete.png" alt="Trompete - die Hausmarke der Firma" id="header-img">
+      <ul>
+        <li class="nav-link"><a href="#features">Features</a></li>
+        <li class="nav-link"><a href="#howitworks">How It Works</a></li>
+        <li class="nav-link"><a href="#pricing">Pricing</a></li>
+      </ul>
+    </nav>
+  </header>
+  <div id="wrapper">  
+    <h1>Handarbeit, Hausgemachte Meisterstücke</h1>  
+    <form action="https://www.freecodecamp.org/email-submit" id="form">
+      <input type="email" placeholder="Gib bitte Deine E-Mail ein">
+      <button type="submit"><strong>Abschicken</strong></button>
+    </form>
+    <section class="features">
+      <div class="features-info">
+        <img src="./img/kupferblech.jpg" alt="Trompetenmaterial">
+        <div>
+          <h2>Premium Material</h2>
+          <p>Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua.</p>
+        </div>
+      </div>
+      <div class="features-info">
+        <img src="./img/lkw.png" alt="LKW - ein gängiges Transportmittel">
+        <div>
+          <h2>Schnelle Versendung</h2>
+          <p>Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua.</p>
+        </div>
+      </div>
+      <div class="features-info">
+        <img src="./img/quality.png" alt="Symbol - der höchsten Qualität">
+        <div>
+          <h2>Geprüfte Qualität</h2>
+          <p>Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua.</p>
+        </div>
+      </div>
+    </section>
+    <section class="howitworks">
+      <div class="video-container">
+        <iframe width="560" height="315" src="https://www.youtube.com/embed/y8Yv4pnO7qc" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen>
+        </iframe>
+        <!--<video width=320  height=240 controls>
+          <source src="./videos/Wildlife.wmv" type="video/wmv">
+        </video> -->
+      </div>       
+    </section>
+    <section class="pricing">
+      <div class="tenor">
+        <h3>Tenor Trompete</h3>
+        <p>
+          <span>$600</span>
+          Lorem ipsum dolor sit amet, consetetur sadipscing elitr
+        </p>
+        <button>Select</button>
+      </div>
+      <div class="bass">
+        <h3>Bass Trompete</h3>
+        <p>
+          <span>$900</span>
+          Lorem ipsum dolor sit amet, consetetur sadipscing elitr
+        </p>
+        <button>Select</button>
+      </div>
+      <div class="valve">
+        <h3>Ventil Trompete</h3>
+        <p>
+          <span>$1200</span>
+          Lorem ipsum dolor sit amet, consetetur sadipscing elitr          
+        </p>
+        <button>Select</button>
+      </div>
+    </section>
+    <footer>
+      <ul>
+        <li><a href="#">Privacy</a></li>
+        <li><a href="#">Terms</a></li>
+        <li><a href="#">Contact</a></li>
+      </ul>
+      <p>Copyright 2016, Original Trombetenbau</p>
+    </footer>
+  </div>
 </body>
 </html>
