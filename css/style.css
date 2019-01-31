@@ -1,0 +1,160 @@
+body {
+  background-color: #eee;
+}
+#header {
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  width: auto;
+  text-align: center;
+  background-color: #eee;
+}
+#header img {
+  max-width: 100%;
+}
+#wrapper{
+  margin-top: 265px;
+}
+#wrapper h1 {
+  font-size: 44px;
+}
+#header ul li {
+  list-style: none;
+  margin-bottom: 2%;
+}
+#header ul li a {
+  text-decoration: none;
+  color: #000;
+  font-size: 22px;
+}
+#wrapper h1,
+#wrapper form {
+  text-align: center;
+}
+#wrapper form {
+  display: flex;
+  flex-direction: column;
+  align-items: center; 
+  margin-bottom: 8%;
+}
+#wrapper form input {
+  width: 40%;
+  margin-bottom: 2%;
+}
+#wrapper form button {
+  background-color: orange;
+  font-size: 26px;
+  padding: 1% 5%;
+}
+section {
+  margin-bottom: 8%;
+}
+.features h2 {
+  font-size: 32px;
+}
+.features p {
+  font-size: 22px;
+}
+.features-info {
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-start;
+  align-content: space-between;
+  margin-bottom: 3%;
+}
+.features-info img {
+  margin-top: 4%;
+  margin-left: 1%;
+  max-width: 15%;
+}
+.features-info h2 {
+  margin: 0 1% 1% 5%;
+}
+.features-info p {
+  margin: 1% 1% 1% 5%;
+}
+.howitworks {
+  display: grid;
+  align-content: center;
+}
+.howitworks .video-container {
+  margin: 0 auto;
+}
+.pricing {
+  display: flex;
+  flex-direction: column;
+  align-items: center; 
+}
+.pricing div {
+  width: 90%;
+  max-width: 450px;
+  text-align: center;
+  border: solid black 1px;
+  margin: 2% 0;
+}
+.pricing h3 {
+  background-color: #ddd;
+  margin: 0;
+  padding: 3%;
+  font-size: 26px;
+}
+.pricing div span {
+  display: block;
+  font-size: 30px;
+  padding: 3%;
+}
+.pricing p {
+  font-size: 20px;
+  line-height: 1.5;
+  padding: 0 20%;
+}
+.pricing button {
+  background-color: orange;
+  padding: 3% 5%;
+  font-size: 26px;
+  margin-bottom: 5%;
+  box-shadow: none;
+  text-transform: uppercase;
+}
+footer {
+  flex: grid;
+  /* align-items: end; */
+  background-color: #ddd;
+  padding: 2% 8%;
+  text-align: right;
+  margin-top: 5%;
+}
+footer ul li {
+  display: inline-block;
+  padding-left: 4%;
+}
+footer ul li a {
+  text-decoration: none;
+  font-size: 26px;
+  color: #000;
+}
+
+@media (min-width: 900px) {
+  header {
+    display: flex;
+    justify-content: space-between; 
+  }
+  #header ul li {
+    display: inline-block;
+    padding-right: 10px;
+  }
+  #wrapper {
+    max-width: 1040px;
+    margin: 165px auto 0;
+  }
+  .pricing {
+    flex-direction: row;
+    justify-content: space-between; 
+    align-content: space-between;
+  }
+  .pricing div {
+    max-width: 100%;
+    margin: 2% 1% 1% 1%;
+  }
+}
